@@ -1,0 +1,4 @@
+source;share/h6x_packet_handler/local_setup.bash
+source;share/h6x_packet_handler/local_setup.dsv
+source;share/h6x_packet_handler/local_setup.sh
+source;share/h6x_packet_handler/local_setup.zsh

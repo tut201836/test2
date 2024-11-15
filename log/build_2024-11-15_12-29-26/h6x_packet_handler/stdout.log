@@ -1,0 +1,75 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /mnt/c/Users/niino/Desktop/M1/HarvestX/test2/test2/src/h6x_serial_interface/h6x_packet_handler/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/c/Users/niino/Desktop/M1/HarvestX/test2/test2/build/h6x_packet_handler
+[  8%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/h6x_packet_handler.dir/src/crc_handler.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/h6x_packet_handler.dir/src/hex_handler.cpp.o[0m
+[ 33%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o[0m
+[ 41%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[ 50%] [32m[1mLinking CXX shared library libh6x_packet_handler.so[0m
+[ 58%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[ 58%] Built target h6x_packet_handler
+[ 58%] Built target gmock_main
+[ 66%] [32m[1mLinking CXX static library libgmock.a[0m
+[ 66%] Built target gmock
+[ 75%] [32mBuilding CXX object CMakeFiles/test_crc_handler.dir/test/src/test_crc_handler.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/test_hex_handler.dir/test/src/test_hex_handler.cpp.o[0m
+[ 91%] [32m[1mLinking CXX executable test_crc_handler[0m
+[100%] [32m[1mLinking CXX executable test_hex_handler[0m
+[100%] Built target test_crc_handler
+[100%] Built target test_hex_handler
+-- Install configuration: ""
+-- Installing: /mnt/c/Users/niino/Desktop/M1/HarvestX/test2/test2/install/h6x_packet_handler/include
+-- Installing: /mnt/c/Users/niino/Desktop/M1/HarvestX/test2/test2/install/h6x_packet_handler/include/h6x_packet_handler
+-- Installing: /mnt/c/Users/niino/Desktop/M1/HarvestX/test2/test2/install/h6x_packet_handler/include/h6x_packet_handler/crc_handler.hpp
+-- Installing: /mnt/c/Users/niino/Desktop/M1/HarvestX/test2/test2/install/h6x_packet_handler/include/h6x_packet_handler/hex_handler.hpp
+-- Installing: /mnt/c/Users/niino/Desktop/M1/HarvestX/test2/test2/install/h6x_packet_handler/include/h6x_packet_handler/packet_state_base.hpp
+-- Installing: /mnt/c/Users/niino/Desktop/M1/HarvestX/test2/test2/install/h6x_packet_handler/include/h6x_packet_handler/rx_ascii_packet.hpp
+-- Installing: /mnt/c/Users/niino/Desktop/M1/HarvestX/test2/test2/install/h6x_packet_handler/include/h6x_packet_handler/rx_packet_base.hpp
+-- Installing: /mnt/c/Users/niino/Desktop/M1/HarvestX/test2/test2/install/h6x_packet_handler/include/h6x_packet_handler/tx_ascii_packet.hpp
+-- Installing: /mnt/c/Users/niino/Desktop/M1/HarvestX/test2/test2/install/h6x_packet_handler/include/h6x_packet_handler/tx_packet_base.hpp
+-- Installing: /mnt/c/Users/niino/Desktop/M1/HarvestX/test2/test2/install/h6x_packet_handler/include/h6x_packet_handler/tx_rx_packet_base.hpp
+-- Installing: /mnt/c/Users/niino/Desktop/M1/HarvestX/test2/test2/install/h6x_packet_handler/share/h6x_packet_handler/environment/library_path.sh
+-- Installing: /mnt/c/Users/niino/Desktop/M1/HarvestX/test2/test2/install/h6x_packet_handler/share/h6x_packet_handler/environment/library_path.dsv
+-- Installing: /mnt/c/Users/niino/Desktop/M1/HarvestX/test2/test2/install/h6x_packet_handler/lib/libh6x_packet_handler.so
+-- Installing: /mnt/c/Users/niino/Desktop/M1/HarvestX/test2/test2/install/h6x_packet_handler/share/ament_index/resource_index/package_run_dependencies/h6x_packet_handler
+-- Installing: /mnt/c/Users/niino/Desktop/M1/HarvestX/test2/test2/install/h6x_packet_handler/share/ament_index/resource_index/parent_prefix_path/h6x_packet_handler
+-- Installing: /mnt/c/Users/niino/Desktop/M1/HarvestX/test2/test2/install/h6x_packet_handler/share/h6x_packet_handler/environment/ament_prefix_path.sh
+-- Installing: /mnt/c/Users/niino/Desktop/M1/HarvestX/test2/test2/install/h6x_packet_handler/share/h6x_packet_handler/environment/ament_prefix_path.dsv
+-- Installing: /mnt/c/Users/niino/Desktop/M1/HarvestX/test2/test2/install/h6x_packet_handler/share/h6x_packet_handler/environment/path.sh
+-- Installing: /mnt/c/Users/niino/Desktop/M1/HarvestX/test2/test2/install/h6x_packet_handler/share/h6x_packet_handler/environment/path.dsv
+-- Installing: /mnt/c/Users/niino/Desktop/M1/HarvestX/test2/test2/install/h6x_packet_handler/share/h6x_packet_handler/local_setup.bash
+-- Installing: /mnt/c/Users/niino/Desktop/M1/HarvestX/test2/test2/install/h6x_packet_handler/share/h6x_packet_handler/local_setup.sh
+-- Installing: /mnt/c/Users/niino/Desktop/M1/HarvestX/test2/test2/install/h6x_packet_handler/share/h6x_packet_handler/local_setup.zsh
+-- Installing: /mnt/c/Users/niino/Desktop/M1/HarvestX/test2/test2/install/h6x_packet_handler/share/h6x_packet_handler/local_setup.dsv
+-- Installing: /mnt/c/Users/niino/Desktop/M1/HarvestX/test2/test2/install/h6x_packet_handler/share/h6x_packet_handler/package.dsv
+-- Installing: /mnt/c/Users/niino/Desktop/M1/HarvestX/test2/test2/install/h6x_packet_handler/share/ament_index/resource_index/packages/h6x_packet_handler
+-- Installing: /mnt/c/Users/niino/Desktop/M1/HarvestX/test2/test2/install/h6x_packet_handler/share/h6x_packet_handler/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /mnt/c/Users/niino/Desktop/M1/HarvestX/test2/test2/install/h6x_packet_handler/share/h6x_packet_handler/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /mnt/c/Users/niino/Desktop/M1/HarvestX/test2/test2/install/h6x_packet_handler/share/h6x_packet_handler/cmake/h6x_packet_handlerConfig.cmake
+-- Installing: /mnt/c/Users/niino/Desktop/M1/HarvestX/test2/test2/install/h6x_packet_handler/share/h6x_packet_handler/cmake/h6x_packet_handlerConfig-version.cmake
+-- Installing: /mnt/c/Users/niino/Desktop/M1/HarvestX/test2/test2/install/h6x_packet_handler/share/h6x_packet_handler/package.xml
