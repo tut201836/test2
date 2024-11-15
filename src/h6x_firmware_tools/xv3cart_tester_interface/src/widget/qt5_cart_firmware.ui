@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CartFirmwareWidget</class>
+ <widget class="QWidget" name="CartFirmwareWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>662</width>
+    <height>613</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>641</width>
+     <height>591</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3" stretch="3,4,2,1,2,2,10,3">
+    <item>
+     <widget class="QLabel" name="Bty_Status_label">
+      <property name="text">
+       <string>Bty</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_4">
+        <item>
+         <widget class="QLabel" name="ToF_Front_label">
+          <property name="text">
+           <string>ToF Front</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBox">
+          <item>
+           <property name="text">
+            <string>NORMAL</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>CHARGE</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>DISABLE</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_10">
+        <item>
+         <widget class="QLabel" name="ToF_Back_label">
+          <property name="text">
+           <string>ToF Back</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBox_2">
+          <item>
+           <property name="text">
+            <string>NORMAL</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>CHARGE</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>DISABLE</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_9">
+        <item>
+         <widget class="QLabel" name="ToF_Left_label">
+          <property name="text">
+           <string>ToF Left</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBox_3">
+          <item>
+           <property name="text">
+            <string>NORMAL</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>CHARGE</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>DISABLE</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_8">
+        <item>
+         <widget class="QLabel" name="ToF_Right_label">
+          <property name="text">
+           <string>ToF Right</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBox_4">
+          <item>
+           <property name="text">
+            <string>NORMAL</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>CHARGE</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>DISABLE</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_9" stretch="0,0">
+      <property name="spacing">
+       <number>0</number>
+      </property>
+      <item>
+       <widget class="QLabel" name="img_1_label">
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="img_2_label">
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_10">
+      <item>
+       <widget class="QComboBox" name="comboBox_5">
+        <item>
+         <property name="text">
+          <string>STOP</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>FORWARD</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>BACKWARD</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>LEFT</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>RIGHT</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox">
+        <property name="text">
+         <string>Linetrace</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QSlider" name="horizontalSlider">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_11">
+      <item>
+       <widget class="QCheckBox" name="checkBox_2">
+        <property name="text">
+         <string>Brake</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_3">
+        <property name="text">
+         <string>Charge</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_4">
+        <property name="text">
+         <string>Shutdown</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_5">
+        <property name="text">
+         <string>Shutdown Force</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_6">
+        <property name="text">
+         <string>Clear Error</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_13">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_14">
+        <item>
+         <widget class="QLabel" name="Left_Enc_label">
+          <property name="text">
+           <string>Left Enc</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="Right_Enc_label">
+          <property name="text">
+           <string>Right Enc</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_12">
+        <item>
+         <widget class="QLabel" name="Left_RPM_label">
+          <property name="text">
+           <string>Left RPM</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="Right_RPM_label">
+          <property name="text">
+           <string>Right RPM</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_13">
+        <item>
+         <widget class="QLabel" name="Left_Trk_label">
+          <property name="text">
+           <string>Left Trk</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="Right_Trk_label">
+          <property name="text">
+           <string>Right Trk</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_15">
+      <item>
+       <widget class="QLabel" name="AGV_label">
+        <property name="text">
+         <string>AGV</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="Bty_label">
+        <property name="text">
+         <string>Bty</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="Charge_label">
+        <property name="text">
+         <string>Charge</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="MGS_label">
+        <property name="text">
+         <string>MGS</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="ToF_label">
+        <property name="text">
+         <string>ToF</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
